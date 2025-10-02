@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="space-x-6 hidden md:flex">
                     <Link to="/" className="hover:text-gray-700 font-medium">Home</Link>
                     <Link to="/events" className="hover:text-gray-700 font-medium">Events</Link>
-                    <Link to="/about" className="hover:text-gray-700 font-medium">About</Link>
+                    <Link to="/About" className="hover:text-gray-700 font-medium">About</Link>
                     <Link to="/contact" className="hover:text-gray-700 font-medium">Contact</Link>
                 </div>
 
