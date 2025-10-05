@@ -26,7 +26,7 @@ function HomePage() {
                 <div className="grid md:grid-cols-3 gap-8">
                     {/* Example Card */}
                     <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
-                        <h3 className="text-xl font-bold">Tech Conference 2025</h3>
+                        <h3 className="text-xl font-bold">Tech Conference 2040</h3>
                         <p className="text-gray-600 mt-2">Dec 10, Kigali Convention Center</p>
                         <Link to="/events/1" className="text-yellow-500 font-medium mt-4 inline-block">
                             View Details →
