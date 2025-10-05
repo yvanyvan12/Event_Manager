@@ -1,15 +1,23 @@
-function About(){
-    return(
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">About EventMaster</h1>
-            <p className="text-lg text-gray-700 max-w-3xl text-center">
-                EventMaster is your go-to platform for organizing, managing, and attending events with ease. Whether you're planning a small meetup or a large conference, our tools are designed to help you every step of the way.
-            </p>
-            <p className="text-lg text-gray-700 max-w-3xl text-center mt-4">
-                Our mission is to connect people through memorable experiences. Join us and be part of a vibrant community that celebrates learning, networking, and fun!
-            </p>
-        </div>
-    );
+import React from "react";
+
+function About() {
+  return (
+    <div className="py-16 px-6">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6">
+          About EventMaster
+        </h1>
+        <p className="text-lg text-gray-700 mb-4">
+          Welcome to EventMaster! We are your one-stop platform for 
+          discovering and managing amazing events.
+        </p>
+        <p className="text-lg text-gray-700">
+          Whether you're looking for concerts, sports, theater shows, 
+          or family events, we've got you covered.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default About;

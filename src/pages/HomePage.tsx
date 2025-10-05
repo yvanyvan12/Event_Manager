@@ -1,15 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img2 from "../assets/img2.jpg"
+
 
 function HomePage() {
     return (
         <div className="bg-white">
             {/* Hero Section */}
-            <section className="text-center py-20 bg-gradient-to-r from-yellow-300 to-yellow-500">
-                <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                    Welcome to EventMaster 🎉
+            <section
+        className="text-center pb-80 pt-80 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${img2})` }}
+      >
+
+                <h1 className="text-5xl font-bold text-white mb-6">
+                    Welcome to EventMaster 
                 </h1>
-                <p className="text-lg text-gray-700 mb-8">
+                <p className="text-lg text-white mb-8">
                     Organize, manage, and attend amazing events with ease.
                 </p>
                 <Link
