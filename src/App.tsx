@@ -13,11 +13,13 @@ function App() {
                 <Route element={<Layout />}>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/About" element={<About />} />
+
                     <Route path="/About" element={<About />} />
                     <Route path="/register" element={<RegisterPage />} />
                     <Route path="/login" element={<LoginPage />} />
 
-                    {/* Add more pages later */}
+=======
+
                 </Route>
             </Routes>
         </BrowserRouter>
